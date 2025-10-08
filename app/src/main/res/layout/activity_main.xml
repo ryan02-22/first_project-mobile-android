@@ -22,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Formulir Mahasiswa"
+            android:text="@string/lbl_frm_mhs"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textSize="18dp"
             android:textStyle="bold" />
@@ -67,6 +67,7 @@
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="320dp" />
 
+
         <Button
             android:id="@+id/lbl_submit"
             android:layout_width="wrap_content"
@@ -74,6 +75,19 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/blue"
             android:text="Submit"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingStart="32dp"
+            android:paddingEnd="32dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:minWidth="140dp"
+            android:minHeight="48dp"
+            android:elevation="4dp"
+            android:focusable="true"
+            android:clickable="true"
+            android:background="@drawable/btn_rounded_side"
             />
 
     </LinearLayout>
