@@ -84,7 +84,11 @@
             android:minWidth="140dp"
             android:minHeight="48dp"
             android:background="@drawable/btn_rounded_side"
+            style="@android:style/Widget.DeviceDefault.Button"
+            app:backgroundTint="@color/blue"
             />
+
+        />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

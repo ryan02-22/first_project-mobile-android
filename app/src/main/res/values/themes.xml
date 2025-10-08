@@ -19,7 +19,6 @@
     </style>
 
     <style name="MyCustomButtonStyle" parent="Widget.AppCompat.Button">
-        <item name="android:background">@drawable/btn_rounded_side</item>
     </style>
 
 </resources>
