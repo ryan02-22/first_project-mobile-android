@@ -6,7 +6,7 @@
     <solid android:color="@color/blue" />
 
     <!-- Rounded Corners -->
-    <corners android:radius="80dp" />
+    <corners android:radius="90dp" />
 
     <!-- Border/Garis Samping -->
     <stroke
